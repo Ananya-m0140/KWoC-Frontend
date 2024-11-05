@@ -33,7 +33,7 @@ function Timeline() {
       defaults: {
         duration: 0.5,
         autoAlpha: 1,
-        fill: "white",
+        fill: "#ffe336",
         scale: 1.5,
         transformOrigin: "center",
         ease: "elastic(1.5, 1)",
@@ -72,10 +72,9 @@ function Timeline() {
 
   return (
     <div className="mb-60" id="timeline" style={{ backgroundColor: "#071b44", maxWidth: "580px", margin: "0 auto" }}>
-      <h1 className=" font-display text-zinc-300 text-center mb-12 text-4xl font-extrabold leading-none tracking-tight md:text-5xl mt-12 lg:text-8xl lg:mb-36" style={{color:"#ffe336", fontSize: "5rem", fontWeight:"900"}}>
-        <i>Timeline</i>
+      <h1 className=" font-display text-zinc-300 text-center mb-12 text-4xl font-extrabold leading-none tracking-tight md:text-5xl mt-12 lg:text-8xl lg:mb-36" style={{color:"#ffe336", fontSize: "5rem", fontWeight:"900", fontStyle:"italic"}}>
+        <em>Timeline</em>
       </h1>
-      {/* <h2>Stay on Track!</h2> */}
       <div className="flex justify-center mb-1/10 px-5">
         <svg
           id="timeline-svg"
@@ -180,7 +179,7 @@ function TimelineDot({
       cx={cx}
       cy={cy}
       r={r}
-      fill="white"
+      fill="#ffe336"
     />
   );
 }
