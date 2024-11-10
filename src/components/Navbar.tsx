@@ -42,12 +42,13 @@ const Navbar = () => {
                         </Link>
                     </li>
                 ))}
-                <Link
+                {/*<Link
                     to={GH_OAUTH_URL}
                     className="reg-button"
                 >
                     Register <span> </span> →
-                </Link>
+                </Link>*/}
+                <button className='reg-button'>Registration Opens Soon!</button>
             </ul>
             <div className='burger' onClick={() => setIsOpen(!isOpen)}>{isOpen ? '✖' : '☰'}</div>
         </div>

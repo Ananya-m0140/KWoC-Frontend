@@ -107,6 +107,7 @@
     padding-bottom: 0.5rem;
     border-radius: 5px;
     box-shadow: 4px 4px #6a6a6a;
+    cursor: pointer;
 }
 
 .container {
