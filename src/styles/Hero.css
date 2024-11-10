@@ -45,7 +45,8 @@
 }
 
 .hero-button:hover {
-  scale: 1.06;
+  scale: 1.05;
+  cursor: pointer;
 }
 
 .hero-images {
