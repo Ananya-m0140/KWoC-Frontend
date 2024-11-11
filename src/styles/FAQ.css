@@ -1,4 +1,3 @@
-/* Overall container styles */
 .faq-container {
     display: flex;
     flex-direction: column;
@@ -13,7 +12,7 @@
 }
 
 .faq-title {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #f9fafb;
     font-weight: 600;
 }
@@ -38,7 +37,7 @@
     border: 1px solid #dcdfe5;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 1rem;
-    max-width: 600px;
+    max-width: 800px;
     width: 100%;
 }
 
@@ -63,8 +62,8 @@
 }
 
 .faq-items-container {
-    width: 100%;
-    max-width: 600px;
+    width: 70%;
+    max-width: 70vw;
 }
 
 .accordion-item {
@@ -145,7 +144,7 @@
     max-height: 1000px; /* Large enough to reveal full content */
     opacity: 1;
     padding: 1rem;
-    border-top: 1px solid #e5e7eb;
+    border-top: 4px solid #071b44;
 }
 
 .accordion-content p {
