@@ -1,0 +1,67 @@
+.testimonial-card {
+  padding: 1.25rem 2rem;
+  background-color: #0f0f27;
+  border-radius: 0.5rem;
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial-avatar {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+.testimonial-role {
+  color: #71717a; /* equivalent to Tailwind's text-zinc-500 */
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.testimonial-quote-container {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-quote {
+  font-size: 1rem;
+  color: #9ca3af; /* equivalent to Tailwind's text-gray-400 */
+  line-height: 1.5;
+}
+
+.testimonial-quote-symbol {
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 0.25rem;
+}
+
+.read-blog-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: #1e3a8a; /* equivalent to primary-950 */
+  border-radius: 0.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+}
+
+.read-blog-button:hover {
+  background-color: #2563eb; /* equivalent to primary-900 */
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

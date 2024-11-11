@@ -4,6 +4,7 @@ import { AboutSection } from "../components/About";
 import { Header } from "../components/Header";
 import { WhyKWoC } from "../components/WhyKWoC";
 import "../styles/Santa.css";
+import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer"
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <AboutSection />
       <WhyKWoC />
       <Timeline />
+      <Testimonials />
       <Footer />
     </>
   );
