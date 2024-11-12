@@ -2,7 +2,6 @@ import "../styles/TestimonialCard.css";
 import quoteimg from "../assets/quote.png";
 
 
-// Define the Testimonial interface
 interface Testimonial {
   name: string;
   role: string;
@@ -11,7 +10,6 @@ interface Testimonial {
   blogLink: string;
 }
 
-// Define the props interface for TestimonialCard
 interface TestimonialCardProps {
   testimonial: Testimonial;
   isActive: boolean;
@@ -20,7 +18,6 @@ interface TestimonialCardProps {
 }
 
 export default function TestimonialCard(props: TestimonialCardProps) {
-  // Destructure the testimonial object and the separate isActive, isPrevious, and isNext props
   const { name, role, quote, imageLink, blogLink } = props.testimonial;
   const { isActive, isPrevious, isNext } = props;
 
